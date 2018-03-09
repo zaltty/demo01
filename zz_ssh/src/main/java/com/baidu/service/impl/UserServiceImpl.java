@@ -6,11 +6,6 @@ import com.baidu.dao.UserDao;
 import com.baidu.domain.User;
 import com.baidu.service.UserService;
 
-/**  
- * ClassName:UserServiceImpl <br/>  
- * Function:  <br/>  
- * Date:     2018年3月9日 下午3:57:27 <br/>       
- */
 @Transactional
 public class UserServiceImpl implements UserService {
 

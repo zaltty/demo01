@@ -1,9 +1,4 @@
 package com.baidu.domain;  
-/**  
- * ClassName:User <br/>  
- * Function:  <br/>  
- * Date:     2018年3月9日 下午3:54:39 <br/>       
- */
 public class User {
     private Integer id;
     private String username;

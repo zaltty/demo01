@@ -42,17 +42,4 @@
 	<!-- 开启注解事务 -->
 	<tx:annotation-driven transaction-manager="transactionManager" />
 
-
-	<!-- Dao -->
-	<bean id="userDao" class="com.baidu.dao.impl.UserDaoImpl">
-		<property name="sessionFactory" ref="sessionFactory"></property>
-	</bean>
-	<!-- Service -->
-	<bean id="userService" class="com.baidu.service.impl.UserServiceImpl">
-		<property name="userDao" ref="userDao"></property>
-	</bean>
-	<!-- web -->
-	<bean id="userAction" class="com.baidu.web.UserAction" scope="prototepy">
-		<property name="userService" ref="userService"></property>
-	</bean>
 </beans>	
